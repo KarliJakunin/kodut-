@@ -1,0 +1,6 @@
+a = int(input("Sisesta täisarv number: "))
+
+if a % 2 == 0 and (a >= 2 and a <= 5 or a >= 20):
+    print("Sobib!")
+else:
+    print("Ei sobi!")
