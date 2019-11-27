@@ -1,0 +1,9 @@
+a = int(input("Sisesta esimene number: "))
+b = int(input("Sisesta teine number: "))
+c = int(input("Sisesta kolmas number: "))
+
+if a == b == c:
+     print(a * b * c)
+    
+else:
+    print(a + b + c)
